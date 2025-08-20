@@ -92,8 +92,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           // Super Admin redirects to dashboard
           navigate("/dashboard");
         } else if (roleId === 2) {
-          // Other users (like Guests) redirect to workspace
-          navigate("/workspace");
+          // Other users (like Guests) redirect to main
+          navigate("/main");
         }
         return true;
       } else {

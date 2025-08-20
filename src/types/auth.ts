@@ -69,10 +69,6 @@ export interface ChatHistoryItem {
   user_id: number;
   session_id: string;
   is_active: boolean;
-  workspaces?: {
-    ws_id: number;
-    ws_name: string;
-  };
   users?: {
     user_id: number;
     user_name: string;
