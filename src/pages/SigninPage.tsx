@@ -15,8 +15,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { useAuth } from "@/context/AuthContext";
 import { SigninRequest } from "@/types/auth";
-// Logo placeholder - add your logo to public/icons/ folder
-const logo = "/placeholder.svg";
 
 const formSchema = z.object({
   user_email: z.string().email("Invalid email address"),
@@ -55,9 +53,9 @@ const SigninPage = () => {
   return (
     <div className="font-poppins min-h-screen flex items-center justify-center bg-gray-50 p-6 sm:p-10">
       <div className="w-full max-w-xl space-y-8">
-        <div className="text-center">
+        {/* <div className="text-center">
           <img src={logo} alt="logo" className="mx-auto w-80 h-auto" />
-        </div>
+        </div> */}
         <div className="bg-white p-8 rounded-lg shadow-md">
           <div className="text-center mb-4">
             <h1 className="text-2xl font-semibold text-gray-700">

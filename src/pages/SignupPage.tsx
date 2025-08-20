@@ -14,7 +14,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import logo from "./../../public/icons/logo-light1.png";
+// import logo from "./../../public/icons/logo-light1.png";
 
 const formSchema = z.object({
   user_name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -62,7 +62,7 @@ const SignupPage = () => {
     <div className="font-poppins min-h-screen flex items-center justify-center bg-gray-50 p-6 sm:p-10">
       <div className="w-full max-w-xl space-y-8">
         <div className="text-center">
-          <img src={logo} alt="logo" className="mx-auto w-80 h-auto" />
+          {/* <img src={logo} alt="logo" className="mx-auto w-80 h-auto" /> */}
         </div>
 
         <div className="bg-white p-8 rounded-lg shadow-md">
@@ -71,7 +71,7 @@ const SignupPage = () => {
               Create an account
             </h1>
             <p className="text-gray-600 mt-2 text-sm">
-              Enter your details to get started with DataGpt
+              Enter your details to get started
             </p>
           </div>
 
