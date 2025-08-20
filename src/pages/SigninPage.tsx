@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { useAuth } from "@/context/AuthContext";
-import { SigninRequest } from "@/types/api";
+import { SigninRequest } from "@/types/auth";
 import logo from "./../../public/icons/logo-light1.png";
 
 const formSchema = z.object({
