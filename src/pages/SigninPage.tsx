@@ -15,7 +15,8 @@ import {
 import { Input } from "@/components/ui/input";
 import { useAuth } from "@/context/AuthContext";
 import { SigninRequest } from "@/types/auth";
-import logo from "./../../public/icons/logo-light1.png";
+// Logo placeholder - add your logo to public/icons/ folder
+const logo = "/placeholder.svg";
 
 const formSchema = z.object({
   user_email: z.string().email("Invalid email address"),
