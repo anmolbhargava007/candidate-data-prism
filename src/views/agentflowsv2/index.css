@@ -2,7 +2,7 @@
     width: 24px;
     height: 24px;
     background: #1a1a1a;
-    border: 2px solid #00ff88;
+    border: 2px solid #149BA1;
     cursor: pointer;
     border-radius: 50%;
     font-size: 12px;
@@ -11,9 +11,9 @@
 }
 
 .edgebutton:hover {
-    background: #00ff88;
-    color: #0a0a0a;
-    box-shadow: 0 0 12px 4px rgba(0, 255, 136, 0.4);
+    background: #149BA1;
+    color: #ffffff;
+    box-shadow: 0 0 12px 4px rgba(20, 155, 161, 0.4);
     transform: scale(1.1);
 }
 
@@ -46,8 +46,8 @@
 
 .chatflow-canvas .react-flow__handle-valid {
     cursor: crosshair;
-    background: #00ff88 !important;
-    box-shadow: 0 0 8px rgba(0, 255, 136, 0.6);
+    background: #149BA1 !important;
+    box-shadow: 0 0 8px rgba(20, 155, 161, 0.6);
 }
 
 .agent-flow-edge-selector:hover {
@@ -62,44 +62,44 @@
 /* Dark mode controls styling - BuilderAI theme */
 .dark-mode-controls {
     --xy-controls-button-background-color-default: #1a1a1a;
-    --xy-controls-button-background-color-hover-default: #00ff88;
-    --xy-controls-button-border-color-default: #00ff88;
-    --xy-controls-box-shadow-default: 0 0 8px 1px rgba(0, 255, 136, 0.3);
+    --xy-controls-button-background-color-hover-default: #149BA1;
+    --xy-controls-button-border-color-default: #149BA1;
+    --xy-controls-box-shadow-default: 0 0 8px 1px rgba(20, 155, 161, 0.3);
 }
 
 .dark-mode-controls .react-flow__controls-button {
     background-color: #1a1a1a;
-    border-color: #00ff88;
-    color: #00ff88;
-    border: 2px solid #00ff88;
+    border-color: #149BA1;
+    color: #149BA1;
+    border: 2px solid #149BA1;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 .dark-mode-controls .react-flow__controls-button:hover {
-    background-color: #00ff88;
-    color: #0a0a0a;
+    background-color: #149BA1;
+    color: #ffffff;
     transform: scale(1.05);
 }
 
 .dark-mode-controls .react-flow__controls-button.react-flow__controls-interactive {
     background-color: #1a1a1a;
-    border-color: #00ff88;
-    color: #00ff88;
+    border-color: #149BA1;
+    color: #149BA1;
 }
 
 .dark-mode-controls .react-flow__controls-button.react-flow__controls-interactive:hover {
-    background-color: #00ff88;
-    color: #0a0a0a;
+    background-color: #149BA1;
+    color: #ffffff;
 }
 
 .dark-mode-controls .react-flow__controls-button svg {
-    color: #00ff88;
-    fill: #00ff88;
+    color: #149BA1;
+    fill: #149BA1;
     transition: all 0.3s ease;
 }
 
 .dark-mode-controls .react-flow__controls-button:hover svg {
-    color: #0a0a0a;
-    fill: #0a0a0a;
+    color: #ffffff;
+    fill: #ffffff;
 }

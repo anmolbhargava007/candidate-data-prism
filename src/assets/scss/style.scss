@@ -250,22 +250,22 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #00ff88;
+    background: #149BA1;
 }
 
-/* Green glow effect for focus states */
+/* Teal glow effect for focus states */
 *:focus-visible {
-    outline: 2px solid #00ff88;
+    outline: 2px solid #149BA1;
     outline-offset: 2px;
 }
 
 /* Card hover effects */
 .MuiCard-root:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 20px rgba(0, 255, 136, 0.2);
+    box-shadow: 0 4px 20px rgba(20, 155, 161, 0.2);
 }
 
 /* Button glow effect */
 button:hover {
-    box-shadow: 0 0 12px rgba(0, 255, 136, 0.3);
+    box-shadow: 0 0 12px rgba(20, 155, 161, 0.3);
 }
