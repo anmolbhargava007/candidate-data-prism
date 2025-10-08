@@ -10,7 +10,7 @@ export const initialState = {
     borderRadius: 12,
     opened: true,
     isHorizontal: localStorage.getItem('isHorizontal') === 'true' ? true : false,
-    isDarkMode: true // Default to dark mode for BuilderAI
+    isDarkMode: true // Default to dark mode for NuAgentOne
 }
 
 // ==============================|| CUSTOMIZATION REDUCER ||============================== //

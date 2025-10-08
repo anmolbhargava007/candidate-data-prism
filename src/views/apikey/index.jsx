@@ -393,7 +393,7 @@ const APIKey = () => {
                             search={true}
                             searchPlaceholder='Search API Keys'
                             title='API Keys'
-                            description='BuilderAI API & SDK authentication keys'
+                            description='NuAgentOne API & SDK authentication keys'
                         >
                             <PermissionButton
                                 permissionId={'apikeys:import'}

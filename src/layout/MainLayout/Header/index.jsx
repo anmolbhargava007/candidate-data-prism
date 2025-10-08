@@ -250,7 +250,7 @@ const Header = ({ handleLeftDrawerToggle }) => {
                     </ButtonBase>
                 )}
             </Box>
-            {/* GitHub Star Button hidden for BuilderAI rebrand */}
+            {/* GitHub Star Button hidden for NuAgentOne rebrand */}
             {false && (isCloud || isOpenSource) ? (
                 <Box
                     sx={{
