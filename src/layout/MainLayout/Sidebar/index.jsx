@@ -81,11 +81,13 @@ const Sidebar = ({ drawerOpen, drawerToggle, window }) => {
                             width: drawerWidth,
                             background: theme.palette.background.default,
                             color: theme.palette.text.primary,
+                            boxShadow: '4px 0 20px rgba(0, 0, 0, 0.5)',
                             [theme.breakpoints.up('md')]: {
                                 top: `${headerHeight}px`
                             },
-                            borderRight: drawerOpen ? '1px solid' : 'none',
-                            borderColor: drawerOpen ? theme.palette.grey[900] + 25 : 'transparent'
+                            borderRight: drawerOpen ? '2px solid' : 'none',
+                            borderColor: drawerOpen ? 'rgba(0, 255, 136, 0.3)' : 'transparent',
+                            transition: 'all 0.3s ease'
                         }
                     }}
                     ModalProps={{ keepMounted: true }}

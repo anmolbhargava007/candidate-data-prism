@@ -1,5 +1,5 @@
 export default function componentStyleOverrides(theme) {
-    const bgColor = theme.colors?.grey50
+    const bgColor = theme?.customization?.isDarkMode ? '#1a1a1a' : theme.colors?.grey50
     return {
         MuiCssBaseline: {
             styleOverrides: {
@@ -37,8 +37,16 @@ export default function componentStyleOverrides(theme) {
         MuiButton: {
             styleOverrides: {
                 root: {
-                    fontWeight: 500,
-                    borderRadius: '4px'
+                    fontWeight: 600,
+                    borderRadius: '12px',
+                    textTransform: 'none',
+                    fontSize: '14px',
+                    padding: '10px 20px',
+                    transition: 'all 0.3s ease',
+                    '&:hover': {
+                        transform: 'translateY(-2px)',
+                        boxShadow: '0 4px 12px rgba(0, 255, 136, 0.3)'
+                    }
                 }
             }
         },

@@ -1,20 +1,22 @@
 .edgebutton {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
-    background: #eee;
-    border: 1px solid #fff;
+    background: #1a1a1a;
+    border: 2px solid #00ff88;
     cursor: pointer;
     border-radius: 50%;
+    transition: all 0.3s ease;
 }
 
 .edgebutton:hover {
-    background: #5e35b1;
-    color: #eee;
-    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.08);
+    background: #00ff88;
+    color: #0a0a0a;
+    box-shadow: 0 0 12px 4px rgba(0, 255, 136, 0.4);
+    transform: scale(1.1);
 }
 
 .edgebutton-foreignobject div {
@@ -40,49 +42,57 @@
 
 .chatflow-canvas .react-flow__handle-connecting {
     cursor: not-allowed;
-    background: #db4e4e !important;
+    background: #ff4444 !important;
+    box-shadow: 0 0 8px rgba(255, 68, 68, 0.6);
 }
 
 .chatflow-canvas .react-flow__handle-valid {
     cursor: crosshair;
-    background: #5dba62 !important;
+    background: #00ff88 !important;
+    box-shadow: 0 0 8px rgba(0, 255, 136, 0.6);
 }
 
-/* Dark mode controls styling */
+/* Dark mode controls styling - BuilderAI theme */
 .dark-mode-controls {
-    --xy-controls-button-background-color-default: #2d2d2d;
-    --xy-controls-button-background-color-hover-default: #404040;
-    --xy-controls-button-border-color-default: #525252;
-    --xy-controls-box-shadow-default: 0 0 2px 1px rgba(255, 255, 255, 0.1);
+    --xy-controls-button-background-color-default: #1a1a1a;
+    --xy-controls-button-background-color-hover-default: #00ff88;
+    --xy-controls-button-border-color-default: #00ff88;
+    --xy-controls-box-shadow-default: 0 0 8px 1px rgba(0, 255, 136, 0.3);
 }
 
 .dark-mode-controls .react-flow__controls-button {
-    background-color: #2d2d2d;
-    border-color: #525252;
-    color: #ffffff;
-    border: 1px solid #525252;
+    background-color: #1a1a1a;
+    border-color: #00ff88;
+    color: #00ff88;
+    border: 2px solid #00ff88;
+    border-radius: 12px;
+    transition: all 0.3s ease;
 }
 
 .dark-mode-controls .react-flow__controls-button:hover {
-    background-color: #404040;
+    background-color: #00ff88;
+    color: #0a0a0a;
+    transform: scale(1.05);
 }
 
 .dark-mode-controls .react-flow__controls-button.react-flow__controls-interactive {
-    background-color: #2d2d2d;
-    border-color: #525252;
-    color: #ffffff;
+    background-color: #1a1a1a;
+    border-color: #00ff88;
+    color: #00ff88;
 }
 
 .dark-mode-controls .react-flow__controls-button.react-flow__controls-interactive:hover {
-    background-color: #404040;
+    background-color: #00ff88;
+    color: #0a0a0a;
 }
 
 .dark-mode-controls .react-flow__controls-button svg {
-    color: #ffffff;
-    fill: #ffffff;
+    color: #00ff88;
+    fill: #00ff88;
+    transition: all 0.3s ease;
 }
 
 .dark-mode-controls .react-flow__controls-button:hover svg {
-    color: #ffffff;
-    fill: #ffffff;
+    color: #0a0a0a;
+    fill: #0a0a0a;
 }

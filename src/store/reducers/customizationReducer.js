@@ -6,11 +6,11 @@ import * as actionTypes from '../actions'
 
 export const initialState = {
     isOpen: [], // for active default menu
-    fontFamily: config.fontFamily,
-    borderRadius: config.borderRadius,
+    fontFamily: "'Poppins', sans-serif",
+    borderRadius: 12,
     opened: true,
     isHorizontal: localStorage.getItem('isHorizontal') === 'true' ? true : false,
-    isDarkMode: localStorage.getItem('isDarkMode') === 'true' ? true : false
+    isDarkMode: true // Default to dark mode for BuilderAI
 }
 
 // ==============================|| CUSTOMIZATION REDUCER ||============================== //
